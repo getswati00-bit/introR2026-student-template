@@ -1,173 +1,163 @@
 # Setup Instructions for Students
 
-Follow these steps to get your research website up and running!
+Follow these steps to set up and publish your research website.
 
 ## Prerequisites
 
-- A GitHub account (free at [github.com](https://github.com))
-- Git installed on your computer ([git-scm.com](https://git-scm.com))
-- (Optional) R and RStudio for local preview
+Before you begin, make sure you have the following:
+
+* A GitHub account (free at [github.com](https://github.com))
+* GitHub Desktop installed on your computer
+* R and RStudio
 
 ## Step-by-Step Setup
 
 ### 1. Create Your Repository
 
-**Option A: If your instructor gave you a template link**
+1. Click the **"<> Code"** button.
+2. Select **Open with GitHub Desktop**.
+3. GitHub Desktop will open. Continue to the next step.
 
-1. Click the **"Use this template"** button
-2. Click **"Create a new repository"**
-3. Name your repository (e.g., `my-research-site` or `[YourName]-research-profile`)
-4. Make it **Public** (so GitHub Pages can publish it)
-5. Click **"Create repository"**
+### 2. Clone the Repository
 
-**Option B: If you're forking**
-
-1. Click the **"Fork"** button
-2. Click **"Create fork"**
-
-### 2. Clone to Your Computer
-
-1. On your new repository page, click the green **"Code"** button
-2. Copy the HTTPS URL
-3. Open Terminal (Mac/Linux) or Git Bash (Windows)
-4. Run:
-   ```bash
-   git clone [paste the URL]
-   cd [your-repo-name]
-   ```
+1. When prompted to clone the repository, choose a location on your local drive.
+2. When asked whether you are contributing to the parent project or using it for personal use, select **Personal Use**.
 
 ### 3. Edit Your Files
 
-Open the repository folder in your text editor:
+Open the repository folder in RStudio.
 
 #### Edit `index.qmd`
-- Replace "Your Name" with your actual name
-- Update the "About Me" section
-- Add your research interests
-- Add your email
+
+* Replace **"Your Name"** with your name.
+* Update the **About Me** section.
+* Add your research interests.
+* Add your email address.
+
+#### Edit `projects.qmd`
+
+* Update the descriptions of your projects.
+* Add links to additional projects as you create them.
 
 #### Edit `projects/final-report.qmd`
-- Change the title to your actual project title
-- Write your final report content
-- Replace placeholder text with your actual work
 
-#### (Optional) Edit `projects.qmd`
-- Customize the description of your projects
-- You can add more project links as you create them
+* Change the title to your project title.
+* Write your final report.
+* Replace all placeholder text with your own content.
 
 #### (Optional) Edit `styles.css`
-- Customize colors, fonts, etc. if you want
 
-### 4. Preview Locally (Optional)
+* Customize colors, fonts, and other styling options if desired.
 
-If you have R/RStudio installed:
+### 4. Preview Your Website Locally
 
-```r
-# In RStudio Console:
-quarto::quarto_render()
-```
+In RStudio, you can preview your website before publishing.
 
-Then open `docs/index.html` in your browser.
-
-### 5. Push to GitHub
-
-When you're happy with your changes:
+Run the following command in the RStudio Terminal:
 
 ```bash
-git add .
-git commit -m "Initial setup: Add my profile and final report"
-git push
+quarto preview
 ```
+
+To render the website before pushing your changes, run:
+
+```bash
+quarto render
+```
+
+### 5. Push Your Changes to GitHub
+
+When you are satisfied with your changes:
+
+1. Open **GitHub Desktop**.
+2. Review the files you modified.
+3. Enter a commit summary and an optional description.
+4. Click **Commit to main**.
+5. Click **Push origin** to upload your changes to GitHub.
 
 ### 6. Enable GitHub Pages
 
-1. Go to your repository on GitHub
-2. Click **Settings** (top right)
-3. Click **Pages** (left sidebar)
-4. Under "Build and deployment":
-   - Source: Select **Deploy from a branch**
-   - Branch: Select **main**
-   - Folder: Select **/docs**
-5. Click **Save**
+1. Go to your repository on GitHub.
+2. Click **Settings**.
+3. Select **Pages** from the left sidebar.
+4. Under **Build and deployment**:
 
-### 7. View Your Site
+   * **Source:** Select **Deploy from a branch**.
+   * **Branch:** Select **main**.
+   * **Folder:** Select **/docs**.
+5. Click **Save**.
 
-1. Wait 1-2 minutes for GitHub to deploy
-2. Go back to **Settings** → **Pages**
-3. You'll see a link like: `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/`
-4. Click it to view your site!
+### 7. View Your Website
 
-## Updating Your Site
+1. Wait 1–2 minutes for GitHub to deploy your site.
 
-Every time you want to update your site:
+2. Return to **Settings → Pages**.
 
-1. Edit your `.qmd` files
-2. Run:
-   ```bash
-   git add .
-   git commit -m "Update: [describe your changes]"
-   git push
+3. You should see a URL similar to:
+
    ```
-3. Wait 1-2 minutes
-4. Your site updates automatically!
+   https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
+   ```
+
+4. Click the link to view your website.
+
+## Updating Your Website
+
+Whenever you want to update your website:
+
+1. Edit your `.qmd` files.
+2. Commit and push your changes using GitHub Desktop.
+3. Wait 1–2 minutes for GitHub Pages to rebuild your site.
+4. Refresh your browser to view the updated website.
 
 ## Checking the Build Status
 
-If your site isn't updating:
+If your website is not updating:
 
-1. Go to your repository on GitHub
-2. Click the **Actions** tab
-3. You'll see the build history
-4. Click on the latest one to see if there were any errors
+1. Go to your GitHub repository.
+2. Click the **Actions** tab.
+3. Open the most recent workflow run.
+4. Review any error messages if the build failed.
 
 ## Troubleshooting
 
-### "Push rejected" error
+### GitHub Pages is not enabled
 
-Make sure you're in the correct folder:
-```bash
-cd [your-repo-name]  # Navigate to your repo
-git push
-```
+* Go to **Settings → Pages**.
+* Confirm that:
 
-### Site looks broken or plain
+  * The branch is set to **main**.
+  * The folder is set to **/docs**.
+* Your website URL should appear on this page after deployment.
 
-- Hard refresh: `Cmd+Shift+R` (Mac) or `Ctrl+Shift+R` (Windows/Linux)
-- Check the Actions tab for build errors
-- Make sure all `.qmd` files have proper formatting
+### Links or file paths are not working
 
-### GitHub Pages not enabled
+Always use forward slashes (`/`) in links, even when using Windows.
 
-- Go to Settings → Pages
-- Make sure branch is set to `main` and folder is `/docs`
-- Site URL should be shown there
-
-### File paths not working
-
-Always use forward slashes `/` in links, even on Windows:
-```
-# Good:
+```text
+# Correct
 [Link](projects/final-report.qmd)
 
-# Bad:
-[Link](projects\final-report.qmd)  # Windows backslash
+# Incorrect
+[Link](projects\final-report.qmd)
 ```
 
 ## Adding More Pages
 
-Want to add a poster, publication, or another project?
+To add another page, such as a poster, publication, or additional project:
 
-1. Create a new `.qmd` file in the `projects/` folder
-2. Edit `projects.qmd` and add a link to it
-3. Push and your site updates automatically!
+1. Create a new `.qmd` file in the `projects/` folder.
+2. Edit `projects.qmd` and add a link to the new page.
+3. Commit and push your changes.
+4. Wait 1–2 minutes for GitHub Pages to update your website.
 
 ## Resources
 
-- [Quarto Documentation](https://quarto.org/)
-- [GitHub Pages Help](https://docs.github.com/en/pages)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
+* [Quarto Documentation](https://quarto.org/)
+* [GitHub Pages Documentation](https://docs.github.com/en/pages)
+* [Markdown Guide](https://www.markdownguide.org/)
+* [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
 ---
 
-**Need help?** Ask your instructor or check the resources above.
+**Need help?** Contact your instructor or refer to the resources listed above.
