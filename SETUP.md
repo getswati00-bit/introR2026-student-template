@@ -28,12 +28,11 @@ Before you begin, make sure you have the following:
 3. Select **Open with GitHub Desktop**.
 4. Choose a local path for the placement of the directory (not a cloud service). For example: (/Users/YourUserame/GitHub/introR2026)
 5. Select **Clone**. 
-6. When prompted to clone the repository, choose a location on your local drive.
-7. When asked whether you are contributing to the parent project or using it for personal use, select **Personal Use**.
 
 ### 3. Edit Your Files
 
-Open the repository folder in RStudio.
+Open RStudio and **Create a new Rproj file** in the local directory of your repository.
+**this is important please do not overlook!**
 
 #### Edit `index.qmd`
 
