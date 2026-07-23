@@ -23,16 +23,19 @@ Before you begin, make sure you have the following:
 
 ### 2. Clone the Repository
 
-1. In your own repository Click the **"<> Code"** button.
-2. Make sure the **GitHub Desktop** is open.
+1. On your computer: Make sure the **GitHub Desktop** is open.
+2. On GitHub: In your own repository on GitHub, Click the **"<> Code"** button.
 3. Select **Open with GitHub Desktop**.
 4. Choose a local path for the placement of the directory (not a cloud service). For example: (/Users/YourUserame/GitHub/introR2026)
 5. Select **Clone**. 
 
 ### 3. Edit Your Files
 
-Open RStudio and **Create a new Rproj file** in the local directory of your repository.
-**this is important please do not overlook!**
+>[!IMPORTANT]
+> 1. Open RStudio
+> 2. Create a new Rproj file in the existing local directory of your repository
+> 3. Open .Rproj file
+> 4. Edit the following files in RStudio
 
 #### Edit `index.qmd`
 
@@ -40,6 +43,8 @@ Open RStudio and **Create a new Rproj file** in the local directory of your repo
 * Update the **About Me** section.
 * Add your research interests.
 * Add your email address.
+* Replace **"your photo.jpg"** with a photo of yourself.
+* Update places that say "link" with the correct internet link or email address, if desired.
 
 #### Edit `projects.qmd`
 
