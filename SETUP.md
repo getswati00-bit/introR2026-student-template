@@ -14,9 +14,11 @@ Before you begin, make sure you have the following:
 
 ### 1. Create Your Repository
 
-1. Click the **"<> Code"** button.
-2. Select **Open with GitHub Desktop**.
-3. GitHub Desktop will open. Continue to the next step.
+1. Click the **"Use this template"** button.
+2. Select **Create a new repository**.
+3. Use the **Owner** dropdown menu to select your github user
+4. Name the repository. **This will be in your webaddress!** Choose something professional like your name.
+5. Click **Create repository from template**.
 
 ### 2. Clone the Repository
 
