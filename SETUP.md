@@ -42,9 +42,8 @@ Before you begin, make sure you have the following:
 * Replace **"Your Name"** with your name.
 * Update the **About Me** section.
 * Add your research interests.
-* Add your email address.
-* Replace **"your photo.jpg"** with a photo of yourself.
-* Update places that say "link" with the correct internet link or email address, if desired.
+* Replace **"your photo.jpg"** with the filename of a photo of yourself & by adding the photo to the directory.
+* Update places that say **"link"** with the correct internet link or email address, if desired.
 
 #### Edit `projects.qmd`
 
@@ -57,9 +56,22 @@ Before you begin, make sure you have the following:
 * Write your final report.
 * Replace all placeholder text with your own content.
 
-#### (Optional) Edit `styles.css`
+#### (Optional) Customizations
 
+`styles.css`
 * Customize colors, fonts, and other styling options if desired.
+
+`_quarto.yml`
+* add new links to the *navbar*
+
+`README.md`
+* This is a place to add information to the GitHub reponsitory, but will not be displayed on your rendered website.
+
+`.gitignore`
+* List files here you don't want synced to GitHub. For example, if you want to keep your data.csv files local and not online list them here
+
+`SETUP.md`
+* These are instructions to create this site. No need to modify this file. 
 
 ### 4. Preview Your Website Locally
 
