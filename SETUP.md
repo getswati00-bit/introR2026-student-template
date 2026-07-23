@@ -17,13 +17,19 @@ Before you begin, make sure you have the following:
 1. Click the **"Use this template"** button.
 2. Select **Create a new repository**.
 3. Use the **Owner** dropdown menu to select your github user
-4. Name the repository. **This will be in your webaddress!** Choose something professional like your name.
+4. Name the repository. **This will be in your web address!** Choose something professional like your name.
 5. Click **Create repository from template**.
+6. You should now have this newly created repository on your own GitHub.
 
 ### 2. Clone the Repository
 
-1. When prompted to clone the repository, choose a location on your local drive.
-2. When asked whether you are contributing to the parent project or using it for personal use, select **Personal Use**.
+1. In your own repository Click the **"<> Code"** button.
+2. Make sure the **GitHub Desktop** is open.
+3. Select **Open with GitHub Desktop**.
+4. Choose a local path for the placement of the directory (not a cloud service). For example: (/Users/YourUserame/GitHub/introR2026)
+5. Select **Clone**. 
+6. When prompted to clone the repository, choose a location on your local drive.
+7. When asked whether you are contributing to the parent project or using it for personal use, select **Personal Use**.
 
 ### 3. Edit Your Files
 
