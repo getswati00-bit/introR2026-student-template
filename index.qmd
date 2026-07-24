@@ -3,7 +3,7 @@ title: "Your Name"
 toc: false
 image: "your photo.jpg"
 about:
-  tmplate: trestles
+  template: trestles
   links:
   - text: GitHub
     href: link
