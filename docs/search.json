@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Here are my research projects and work:\n\n\nMy final project for CELL 6351 - Intro to Reproducible Data Analysis Using R. I will analyze an OSBP co-immunoprecipitation proteomics dataset containing protein associated peptide counts from DMSO, OSW-1, OSW1/B-treated, and isotype control samples. I want to determine whether stress granule associated proteins are recovered with OSBP and whether their relative abundance changes after OSW-1 treatment. I will import and clean the data in R, organize it into a tidy format, classify proteins based on their known functions, and normalize the counts to account for differences in total peptide recovery between conditions. Using exploratory data analysis and ggplot2 visualizations I will compare protein counts, identify proteins shared across conditions, highlight treatment specific proteins, and examine selected stress granule candidates. I will also use computational bootstrap pseudo replicates to demonstrate principal component analysis and hierarchical clustering.\nView Final Report →\n\n\n\n\nAs you continue your research journey, you can add more pages here! For example:\n\nConference posters\nPublications\nData visualizations\nAnalysis write-ups\nProject proposals\n\nTo add a new project:\n\nCreate a new .qmd file in the projects/ folder\nAdd a link to it on this page\nPush to GitHub and your site updates automatically!"
-  },
-  {
-    "objectID": "projects.html#final-report",
-    "href": "projects.html#final-report",
-    "title": "Projects",
-    "section": "",
-    "text": "My final project for CELL 6351 - Intro to Reproducible Data Analysis Using R. I will analyze an OSBP co-immunoprecipitation proteomics dataset containing protein associated peptide counts from DMSO, OSW-1, OSW1/B-treated, and isotype control samples. I want to determine whether stress granule associated proteins are recovered with OSBP and whether their relative abundance changes after OSW-1 treatment. I will import and clean the data in R, organize it into a tidy format, classify proteins based on their known functions, and normalize the counts to account for differences in total peptide recovery between conditions. Using exploratory data analysis and ggplot2 visualizations I will compare protein counts, identify proteins shared across conditions, highlight treatment specific proteins, and examine selected stress granule candidates. I will also use computational bootstrap pseudo replicates to demonstrate principal component analysis and hierarchical clustering.\nView Final Report →"
-  },
-  {
-    "objectID": "projects.html#adding-more-projects",
-    "href": "projects.html#adding-more-projects",
-    "title": "Projects",
-    "section": "",
-    "text": "As you continue your research journey, you can add more pages here! For example:\n\nConference posters\nPublications\nData visualizations\nAnalysis write-ups\nProject proposals\n\nTo add a new project:\n\nCreate a new .qmd file in the projects/ folder\nAdd a link to it on this page\nPush to GitHub and your site updates automatically!"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Your Name",
@@ -152,5 +131,26 @@
     "title": "Setup Instructions for Students",
     "section": "",
     "text": "Quarto Documentation\nGitHub Pages Documentation\nMarkdown Guide\nGit Basics\n\n\nNeed help? Contact your instructor or refer to the resources listed above."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here are my research projects and work:\n\n\nMy final project for CELL 6351 - Intro to Reproducible Data Analysis Using R. I will analyze an OSBP co-immunoprecipitation proteomics dataset containing protein associated peptide counts from DMSO, OSW-1, OSW1/B-treated, and isotype control samples. I want to determine whether stress granule associated proteins are recovered with OSBP and whether their relative abundance changes after OSW-1 treatment. I will import and clean the data in R, organize it into a tidy format, classify proteins based on their known functions, and normalize the counts to account for differences in total peptide recovery between conditions. Using exploratory data analysis and ggplot2 visualizations I will compare protein counts, identify proteins shared across conditions, highlight treatment specific proteins, and examine selected stress granule candidates. I will also use computational bootstrap pseudo replicates to demonstrate principal component analysis and hierarchical clustering.\nView Final Report →\n\n\n\n\nAs you continue your research journey, you can add more pages here! For example:\n\nConference posters\nPublications\nData visualizations\nAnalysis write-ups\nProject proposals\n\nTo add a new project:\n\nCreate a new .qmd file in the projects/ folder\nAdd a link to it on this page\nPush to GitHub and your site updates automatically!"
+  },
+  {
+    "objectID": "projects.html#final-report",
+    "href": "projects.html#final-report",
+    "title": "Projects",
+    "section": "",
+    "text": "My final project for CELL 6351 - Intro to Reproducible Data Analysis Using R. I will analyze an OSBP co-immunoprecipitation proteomics dataset containing protein associated peptide counts from DMSO, OSW-1, OSW1/B-treated, and isotype control samples. I want to determine whether stress granule associated proteins are recovered with OSBP and whether their relative abundance changes after OSW-1 treatment. I will import and clean the data in R, organize it into a tidy format, classify proteins based on their known functions, and normalize the counts to account for differences in total peptide recovery between conditions. Using exploratory data analysis and ggplot2 visualizations I will compare protein counts, identify proteins shared across conditions, highlight treatment specific proteins, and examine selected stress granule candidates. I will also use computational bootstrap pseudo replicates to demonstrate principal component analysis and hierarchical clustering.\nView Final Report →"
+  },
+  {
+    "objectID": "projects.html#adding-more-projects",
+    "href": "projects.html#adding-more-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "As you continue your research journey, you can add more pages here! For example:\n\nConference posters\nPublications\nData visualizations\nAnalysis write-ups\nProject proposals\n\nTo add a new project:\n\nCreate a new .qmd file in the projects/ folder\nAdd a link to it on this page\nPush to GitHub and your site updates automatically!"
   }
 ]
