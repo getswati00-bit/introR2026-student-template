@@ -9,6 +9,8 @@ Here are my research projects and work:
 ## Final Report
 
 My final project for CELL 6351 - Intro to Reproducible Data Analysis Using R.
+I will analyze an OSBP co-immunoprecipitation proteomics dataset containing protein associated peptide counts from DMSO, OSW-1, OSW1/B-treated, and isotype control samples. I want to determine whether stress granule associated proteins are recovered with OSBP and whether their relative abundance changes after OSW-1 treatment. I will import and clean the data in R, organize it into a tidy format, classify proteins based on their known functions, and normalize the counts to account for differences in total peptide recovery between conditions. Using exploratory data analysis and ggplot2 visualizations I will compare protein counts, identify proteins shared across conditions, highlight treatment specific proteins, and examine selected stress granule candidates. I will also use computational bootstrap pseudo replicates to demonstrate principal component analysis and hierarchical clustering.
+
 
 [**View Final Report** →](projects/final-report.qmd)
 

@@ -8,11 +8,11 @@ author: "Your Name"
 
 ## Introduction
 
-Replace this with an introduction to your research question or project. What are you investigating? Why does it matter?
+Does OSW-1 alter stress-granule associated proteins
 
 ## Methods
 
-Describe how you conducted your analysis. What data did you use? What analyses did you perform?
+CO-Ip of OSBP followed by ITRAQ and mass spectrometry
 
 ## Results
 
