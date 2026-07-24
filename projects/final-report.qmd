@@ -27,7 +27,7 @@ Share your findings here. You can include:
 
 Here's a sample R code block:
 
-```r
+```{r}
 # Load a library
 library(ggplot2)
 
